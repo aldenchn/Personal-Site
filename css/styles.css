@@ -101,7 +101,15 @@ p {
 .education {
   width: 70%;
   margin: auto auto 100px auto;
-  text-align: left;
+  text-align: center;
+}
+
+.edu-col{
+      display: inline-block;
+      margin: 20px 0px 10px 0px;
+      width: 90%;
+
+
 }
 
 .footer-link {
@@ -249,9 +257,10 @@ border-radius: 10px;
 
 .ug {
   text-align: left;
+  margin-top: 0px;
 }
 
-.ug-img {
+.ug-img, .master-img {
   width: 180px;
   height: 210px;
   margin-right: 20px;
@@ -260,21 +269,22 @@ border-radius: 10px;
 }
 
 .ms {
-  text-align: right;
+  text-align: left;
+  margin-top: 0;
 }
 
-.master-img {
+/* .master-img {
   width: 20%;
   height: 10%;
   margin-left: 20px;
   float: right;
   border-radius: 5px;
-}
+} */
 
-.work-experience {
+/* .work-experience {
   width: 70%;
   margin: auto auto;
-}
+} */
 
 .bottom-container {
   background-color: #30475E;
@@ -293,8 +303,9 @@ a:hover {
 }
 
 .work-experience {
+  width:70%;
   background-color: #D3DEDC;
-  padding: 40px;
+  padding: 35px;
   margin: 40px auto;
   border-radius: 10px;
 }
